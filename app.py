@@ -11,3 +11,10 @@ def hello():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
+@app.route("/broken")
+def broken()
+    return "This will break"
+@app.route("/broken")
+def broken()  # <-- missing colon here
+    return "This will break GitHub Actions!"
