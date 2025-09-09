@@ -15,3 +15,6 @@ if __name__ == "__main__":
 @app.route("/broken")
 def broken():  # <-- fixed
     return "This works now!"
+
+def broken_style():
+  return  "Extra spaces here"
