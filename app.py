@@ -17,4 +17,4 @@ def broken():  # <-- fixed
     return "This works now!"
 
 def broken_style():
-  return  "Extra spaces here"
+    return "Extra spaces fixed"
